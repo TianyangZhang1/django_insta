@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62286b00-b604-4be8-8fa2-8beef774a61e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/del.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/show_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insta/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insta/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insta/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insta/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloword/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloword/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML4 File" />
+        <option value="XHTML File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

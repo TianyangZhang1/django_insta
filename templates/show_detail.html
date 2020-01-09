@@ -1,0 +1,6 @@
+<p>{{object.title}}</p>
+<div>
+    <a href="{% url 'edit' object.pk%}"> Edit post </a>
+    <a href="{% url 'del' object.pk%}"> Delete post </a>
+    <image src="/{{object.images}}"></image>
+</div>
