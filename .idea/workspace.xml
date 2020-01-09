@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62286b00-b604-4be8-8fa2-8beef774a61e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Insta/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insta/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helloword/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloword/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,22 +122,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="890" y="567" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578541472179" />
-    <state width="1377" height="261" key="GridCell.Tab.0.bottom" timestamp="1578541503848">
+    <state width="1377" height="261" key="GridCell.Tab.0.bottom" timestamp="1578543379649">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="261" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578541503848" />
-    <state width="1377" height="261" key="GridCell.Tab.0.center" timestamp="1578541503848">
+    <state width="1377" height="261" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578543379649" />
+    <state width="1377" height="261" key="GridCell.Tab.0.center" timestamp="1578543379611">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="261" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578541503848" />
-    <state width="1377" height="261" key="GridCell.Tab.0.left" timestamp="1578541503847">
+    <state width="1377" height="261" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578543379611" />
+    <state width="1377" height="261" key="GridCell.Tab.0.left" timestamp="1578543379590">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="261" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578541503847" />
-    <state width="1377" height="261" key="GridCell.Tab.0.right" timestamp="1578541503848">
+    <state width="1377" height="261" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578543379590" />
+    <state width="1377" height="261" key="GridCell.Tab.0.right" timestamp="1578543379629">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="261" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578541503848" />
+    <state width="1377" height="261" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578543379629" />
     <state x="749" y="138" key="SettingsEditor" timestamp="1578541329679">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
