@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="62286b00-b604-4be8-8fa2-8beef774a61e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insta/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insta/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloword/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
