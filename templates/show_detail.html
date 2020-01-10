@@ -1,6 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row single-post">
+    <div class="single-post-card view-update {{ object.pk }}">
+        <div class="header">
+            <a href="{% url 'helloworld' %}">
+                {% if object.author.pic %}
+                    <img class="picture-circle--medium" src="/{{object.author.pic}}">
+                {% endif %}
+                {{ object.author.username }}
+            </a>
+        </div>
+
+        <div class="image__wrapper">
+            <img class="card__main-image" src="/{{object.images}}" width='1000', height='1000'>
+        </div>
+
+        <div class="comments-portion">
+            <div class="likes-timestamp-row">
+                <div class="likes">
+                    {% if object.get_like %}
+                        {{ object.get_like }} like{% if object.get_like > 1 %}s{% endif %}
+                    {% endif %}
+                </div>
+            </div>
+            <section class="input-row">
+                <i class="fa fa-heart-o submit-like" aria-hidden="true"></i>
+            </section>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{%comment%}
+{% extends "base.html" %}
+{% block content %}
+
 <p>{{object.title}}</p>
 <div>
     <a href="{% url 'edit' object.pk%}"> Edit post </a>
     <a href="{% url 'del' object.pk%}"> Delete post </a>
+    <a href="{% url 'b' %}">Back</a>
     <image src="/{{object.images}}"></image>
 </div>
+
+{% endblock content %}
+{%endcomment%}

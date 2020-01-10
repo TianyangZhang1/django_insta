@@ -1,0 +1,57 @@
+<div class="navbar navbar-default navbar-fixed-top" id="main-nav">
+    <div class="container desktop">
+        <div class="navbar-header">
+            <a href="{% url 'b' %}" class="navbar-brand">Jiuzhang Insta</a>
+        </div>
+
+        <div id="navbar-main">
+            <ul class="nav navbar-nav navbar-right">
+                {% if request.user.is_authenticated %}
+                    <li>
+                      <a href="{% url 'b' %}">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li><a href="{% url 'helloworld' %}"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                    <li><a href="{% url 'create' %}"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="{% url 'detail' user.id %}"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                    <li><a href="{% url 'logout' %}"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+                {% else %}
+                    <li>
+                        <a href="{% url 'login' %}">login</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'sign' %}">signup</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+{%comment%}
+<ul>
+    {% if request.user.is_authenticated %}
+    <li>
+
+        <p>Hi, {{ request.user.username }}</p>
+
+    </li>
+    <li>
+
+        <a class="changestyle" href="{%url 'logout' %}">Logout </a>
+
+    </li>
+    {%else%}
+    <li>
+        <a href="{%url 'login' %}">login</a>
+    </li>
+    <li>
+        <a href="{% url 'sign' %}">Signup</a>
+
+    </li>
+    {%endif%}
+</ul>
+{%endcomment%}
+

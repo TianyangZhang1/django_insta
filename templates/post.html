@@ -1,4 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="cards-listing">
+    {% for post in object_list %}
+        <div class="row">
+            <div class="card view-update {{ post.pk }}">
+
+                <div class="card__panel-head">
+                    <div class="poster__info">
+                        <a href="/" class="poster__name">
+                            {% if post.author.pic %}
+                                <img class="poster__profilepic" src="/{{ post.author.pic }}">
+                            {% endif %}
+                            {{ post.author.username }}
+                        </a>
+                    </div>
+                </div>
+
+                <a href="{% url 'detail' post.pk %}">
+                    <img class="card__main-image" src="/{{ post.images }}">
+                </a>
+
+                <div class="card__panel-body">
+                    <div class="likes">
+                        {% if post.get_like %}
+                            {{ post.get_like }} like{% if post.get_like > 1 %}s{% endif %}
+                        {% endif %}
+                    </div>
+                    <section class="input-row">
+                          <i class="fa fa-heart-o submit-like" aria-hidden="true"></i>
+                    </section>
+
+                </div>
+
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock content %}
+
+{%comment%}
+{% extends "base.html" %}
 {% load static %}
+{% block content %}
+
 <div>
     <a href="{% url 'create' %}"> Make Post</a>
 </div>
@@ -12,3 +59,6 @@
     {% endfor %}
 
 </div>
+
+{% endblock content %}
+{%endcomment%}
