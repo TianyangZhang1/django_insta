@@ -6,8 +6,9 @@ from  django.urls import  reverse_lazy
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from Insta.form import CustomUserCreationForm
-from Insta.models import like, InstaUser
+from Insta.models import like, InstaUser,Userconnections
 from annoying.decorators import ajax_request
+
 
 class HelloDjango(TemplateView):
     template_name = 'home.html'
@@ -17,6 +18,12 @@ class HelloDjango(TemplateView):
 class Postview(ListView):
     model = Post
     template_name = 'post.html'
+    def get_queryset(self):
+        currect_user = self.request.user
+        following = set()
+        for conn in Userconnections.objects.filter(creator = currect_user).select_related('following'):
+            following.add(conn.following)
+        return Post.objects.filter(author__in=following)
 
 
 class postdetailview(DetailView):
