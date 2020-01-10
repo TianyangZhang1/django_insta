@@ -7,6 +7,7 @@
         <div id="navbar-main">
             <ul class="nav navbar-nav navbar-right">
                 {% if request.user.is_authenticated %}
+
                     <li>
                       <a href="{% url 'b' %}">
                         <i class="fa fa-home" aria-hidden="true"></i>
@@ -14,7 +15,7 @@
                     </li>
                     <li><a href="{% url 'helloworld' %}"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                     <li><a href="{% url 'create' %}"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
-                    <li><a href="{% url 'detail' user.id %}"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                    <li><a href="{% url 'userdetail' user.id %}"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                     <li><a href="{% url 'logout' %}"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
                 {% else %}
                     <li>

@@ -1,7 +1,7 @@
 from django.contrib.auth.forms import UserCreationForm
-from  Insta.models import User
+from  Insta.models import InstaUser
 
 class CustomUserCreationForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
-        model = User
+        model = InstaUser
         fields = ('username', 'email', 'pic')

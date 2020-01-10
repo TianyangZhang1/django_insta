@@ -6,6 +6,8 @@ from  django.urls import  reverse_lazy
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from Insta.form import CustomUserCreationForm
+from Insta.models import like, InstaUser
+from annoying.decorators import ajax_request
 
 class HelloDjango(TemplateView):
     template_name = 'home.html'
@@ -41,3 +43,25 @@ class signupview(CreateView):
     form_class = CustomUserCreationForm  #UserCreationForm
     template_name = 'signup.html'
     success_url = reverse_lazy('login')
+
+class UserDetail(DetailView):
+    model = InstaUser
+    template_name = 'user_detail.html'
+
+
+
+
+@ajax_request
+def addlike(request):
+    post_pk = request.POST.get('post_pk')
+    post = Post.objects.get(pk=post_pk)
+    try:
+        likeit = like(post=post, user = request.user)
+        likeit.save()
+        result = 1
+    except Exception as e:
+        likeit = like.objects.get(post=post, user=request.user)
+        likeit.delete()
+        result = 0
+
+    return {"result":result,"post_pk":post_pk }

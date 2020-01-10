@@ -2,103 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62286b00-b604-4be8-8fa2-8beef774a61e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Insta/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_explore.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/partials/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-10-20_22-59-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-11-14_03-09-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-09_18-27-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-14_15-59-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-14_16-01-49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-15_16-21-23_DiR9ZXy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-15_16-21-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-15_16-21-33_JFzlgEC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-10-20_22-58-51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-11-15_22-06-43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-12-09_18-18-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/ajax-csrf-auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-themed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/font-awesome-4.6.3/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/jquery-3.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore.swp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insta/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insta/templatetags/customtages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-10-20_22-58-32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-15_16-21-23_Zwe17pY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-12-09_18-19-44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-12-14_16-01-57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-12-15_16-21-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insta/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insta/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insta/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insta/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insta/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insta/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helloword/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloword/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/del.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/del.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Screenshot_from_2019-11-14_03-09-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Screenshot_from_2019-11-15_22-06-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-09_18-27-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-15_16-21-23_DiR9ZXy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-15_16-21-33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-15_16-21-33_JFzlgEC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Screenshot_from_2019-12-27_18-05-53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/comparision.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-10-20_22-58-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-11-15_22-06-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/personal/Screenshot_from_2019-12-09_18-18-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/visibility.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/show_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show_detail.html" afterDir="false" />
     </list>

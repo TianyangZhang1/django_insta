@@ -1,5 +1,5 @@
 from django.urls import path
-from Insta.views import HelloDjango, Postview, postdetailview, createV, updatetitleview, delview, signupview
+from Insta.views import HelloDjango, Postview, postdetailview, createV, updatetitleview, delview, signupview, addlike, UserDetail
 
 urlpatterns = [
     path('hello', HelloDjango.as_view(), name='helloworld'),
@@ -9,5 +9,7 @@ urlpatterns = [
     path('post/edit/<int:pk>/', updatetitleview.as_view(), name= 'edit'),
     path('post/del/<int:pk>/', delview.as_view(), name = 'del'),
     path('auth/signup/', signupview.as_view(), name='sign'),
+    path('like',addlike,name = 'addlike' ),
+    path('userdetail/<int:pk>/', UserDetail.as_view(), name='userdetail')
 ]
 
