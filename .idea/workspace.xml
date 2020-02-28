@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62286b00-b604-4be8-8fa2-8beef774a61e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insta/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloword/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/mystyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/sentiment_analysis" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -128,14 +130,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="429" y="186" width="1084" height="718" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578541478098" />
-    <state x="689" y="358" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578600982505">
+    <state x="689" y="358" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582916278446">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="689" y="358" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1578600982505" />
-    <state x="890" y="567" width="501" height="513" key="FileChooserDialogImpl" timestamp="1578541472179">
+    <state x="689" y="358" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582916278446" />
+    <state x="780" y="256" width="501" height="513" key="FileChooserDialogImpl" timestamp="1578760044859">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="890" y="567" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578541472179" />
+    <state x="780" y="256" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578760044859" />
     <state width="1377" height="261" key="GridCell.Tab.0.bottom" timestamp="1578543379649">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -156,6 +158,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="749" y="138" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578541329679" />
+    <state x="846" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1582916205936">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="846" y="362" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582916205936" />
     <state x="927" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578540614308">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
